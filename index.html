@@ -77,6 +77,16 @@
             margin-bottom: 10px;
         }
 
+        .product-info .price {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .product-info select {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
         .product-info a {
             background-color: #333;
             color: #fff;
@@ -119,21 +129,17 @@
             <img src="images/featured-product.jpg" alt="Featured clothing item">
             <div class="product-info">
                 <h4>The Organic Pima Tee</h4>
-                <p>Made from 100% organic Pima cotton, this incredibly soft t-shirt is a wardrobe essential.</p>
-                <a href="#">Shop Now</a>
+                <p class="price">$34.99</p>
+                <select name="size">
+                    <option value="S">Small</option>
+                    <option value="M" selected>Medium</option>
+                    <option value="L">Large</option>
+                    <option value="XL">Extra Large</option>
+                </select>
+                <a href="#">Add to Cart</a>
             </div>
         </section>
     </main>
 
     <section id="about">
-        <h2>Our Story</h2>
-        <p>Evergreen Threads was founded with the belief that fashion can be sustainable and ethical. We use organic materials and eco-friendly manufacturing practices to create clothing that is kind to the planet and comfortable to wear.</p>
-        <p>We are committed to transparency and fair labor practices. We partner with small, family-owned workshops that ensure their workers are treated with respect and paid a living wage.</p>
-    </section>
-
-    <footer>
-        <p>&copy; Evergreen Threads 2024</p>
-        <a href="#">Contact</a>
-    </footer>
-</body>
-</html>
+        <h2>
